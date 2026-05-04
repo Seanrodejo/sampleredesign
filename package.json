@@ -1,15 +1,17 @@
 {
-  "name": "effectsmodule",
+  "name": "sample-page-redesign",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
-    "web": "expo start --web"
+    "web": "expo start --web",
+    "build": "npx expo export"
   },
   "dependencies": {
-    "expo": "~54.0.33",
+    "@expo/metro-runtime": "~6.1.2",
+    "expo": "~54.0.34",
     "expo-blur": "~15.0.8",
     "expo-linear-gradient": "~15.0.8",
     "expo-status-bar": "~3.0.9",
